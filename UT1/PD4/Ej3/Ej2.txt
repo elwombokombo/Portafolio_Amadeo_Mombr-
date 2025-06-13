@@ -1,0 +1,4 @@
+¿Cómo hace un programa para destruir un objeto que ha creado?
+
+En java la gestión de memoria y la destrucción de objetos la hace el Garbage Collector, quien al encontrar objetos no referenciados.
+Ejemplo que posean un valor null, lo marca al espacio de memoria del objeto como candidato a limpieza y libera ese espacio de forma no inmediata.
