@@ -1,5 +1,4 @@
 Para reescribir el programa usando enum, 
 se puede crear un enum llamado TipoCaracter con tres valores posibles: VOCAL, CONSONANTE y OTRO. 
-Luego, implementamos un método que recibe un carácter y devuelve el tipo correspondiente. 
-En lugar de usar múltiples if o switch sobre los caracteres, la lógica de clasificación queda delegada a este enum, 
-haciendo el código más organizado, legible y fácil de extender en el futuro.
+Luego, implementar un método que recibe un carácter y devuelve el tipo correspondiente. 
+En lugar de usar múltiples if o switch sobre los caracteres, la lógica de clasificación queda delegada a este enum.
