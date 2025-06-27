@@ -20,5 +20,5 @@ public class ej5 {
  * d representa el número al cual le queremos analizar cuántos dígitos decimales y cuántos enteros posee
  * s al inicilizarze guarda a d como un string para poder hacer uso en dot del índice donde se encuentra el punto 
  * luego se imprime por consola el índice del punto que como índice=length-1 corresponde a la cantidad de enteros en el número
- * por último se imprime cuantos números son decimales contando el largo, restándole 1 por el desfasaje
+ * por último se imprime cuantos números son decimales contando el largo, restándole 1 por el desfasaje con indice y restando dot.
  */

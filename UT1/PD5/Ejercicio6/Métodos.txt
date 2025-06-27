@@ -1,0 +1,4 @@
+Substring: Si se le es pasado dos int como índice,
+            sirve para retornar un sub-string del String original.
+            Este iniciaría en el índice del primer párametro y aglutinaría los caracteres hasta el segundo parámetro -1.
+            Si solo se pasa un parámetro se toma en cuenta ese como el incial e iría hasta el final del string original.
