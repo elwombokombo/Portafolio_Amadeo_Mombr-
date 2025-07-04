@@ -1,0 +1,17 @@
+Qué hace: El algoritmo de Kruskal sirve para encontrar un árbol abarcador de costo mínimo
+en un grafo no dirigido y conexo (no hay vértices ni grupos separados) con pesos en las aristas.
+Ordena todas las aristas del grafo de menor a mayor peso.
+Empieza a agregar aristas al árbol, siempre eligiendo la de menor peso disponible.
+Evita formar ciclos. Usa una estructura llamada conjuntos disjuntos (Union-Find) para controlar esto.
+Se detiene cuando el árbol tiene n−1 aristas, donde n es la cantidad de vértices.
+Se utiliza con array (útil si se sabe el número de aristas) o lists (ArrayList<>(clase), es la forma más versátil)
+Ejemplos: redes eléctricas, redes de agua, redes de carreteras, redes de computadoras, sistemas de transporte.
+1- Supongamos que querés conectar 4 pueblos con caminos, y hay varios caminos posibles con diferentes costos. 
+Kruskal te dirá cuáles caminos elegir para gastar lo mínimo posible sin dejar ningún pueblo aislado ni construir caminos innecesarios.
+2- En una red de distribución de paquetes dentro de un país, las ciudades están
+ conectadas por rutas de entrega directas. Cada ruta tiene un costo asociado,
+ representando el gasto logístico entre dos ciudades. Sin embargo, debido a 
+ restricciones de presupuesto, se desea minimizar el costo total para conectar todas
+ las ciudades de forma que cualquier paquete pueda ser entregado entre cualquier
+ par de ciudades (directa o indirectamente).
+Orden: Es O(m log m) siendo m el número de aristas
