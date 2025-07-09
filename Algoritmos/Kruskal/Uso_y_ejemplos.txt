@@ -1,7 +1,7 @@
 Qué hace: El algoritmo de Kruskal sirve para encontrar un árbol abarcador de costo mínimo
 en un grafo no dirigido y conexo (no hay vértices ni grupos separados) con pesos en las aristas.
 Ordena todas las aristas del grafo de menor a mayor peso.
-Empieza a agregar aristas al árbol, siempre eligiendo la de menor peso disponible.
+Se expande al agregar aristas al árbol, siempre eligiendo la de menor peso disponible.
 Evita formar ciclos. Usa una estructura llamada conjuntos disjuntos (Union-Find) para controlar esto.
 Se detiene cuando el árbol tiene n−1 aristas, donde n es la cantidad de vértices.
 Se utiliza con array (útil si se sabe el número de aristas) o lists (ArrayList<>(clase), es la forma más versátil)
