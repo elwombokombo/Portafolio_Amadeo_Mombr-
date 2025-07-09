@@ -1,3 +1,11 @@
-Qué hace:
+Qué hace: Sirve para encontrar un árbol abarcador de costo mínimo 
+en un grafo no dirigido y conexo (no hay vértices ni grupos separados) con pesos en las aristas. 
+Es más eficiente que Kruskal si el grafo posee muchas aristas. 
+A diferencia de Kruskal, se centra más en los vértices que las aristas. 
+Se posiciona en un vértice no visitado y consigue la menor arista posible para ir a otro no-visitado hasta que todos los nodos se hayan visitado. 
+Evita los ciclos marcando los nodos visitados.
+Prim construye un árbol mínimo conectando vértices paso a paso, 
+siempre eligiendo la arista más barata que expanda el árbol sin formar ciclos.
 Ejemplos:
-Orden:
+Orden: En el caso de usar una matriz de adyacencias es n^2, 
+si lo utilizamos con cola de prioridad (heap) y lista de adyacencias tiene E log N. n= n° vértices; E= n° aristas.
